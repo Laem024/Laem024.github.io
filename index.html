@@ -5,7 +5,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <title>Unity WebGL Player | Roll a ball</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
-    <link rel="stylesheet" href="TemplateData/style.css">
+    <link rel="stylesheet" href="./TemplateData/style.css">
   </head>
   <body>
     <div id="unity-container" class="unity-desktop">
@@ -57,11 +57,11 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/buld html.loader.js";
+      var loaderUrl = buildUrl + "./buld html.loader.js";
       var config = {
-        dataUrl: buildUrl + "/buld html.data.gz",
-        frameworkUrl: buildUrl + "/buld html.framework.js.gz",
-        codeUrl: buildUrl + "/buld html.wasm.gz",
+        dataUrl: buildUrl + "./buld html.data.gz",
+        frameworkUrl: buildUrl + "./buld html.framework.js.gz",
+        codeUrl: buildUrl + "./buld html.wasm.gz",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "Roll a ball",
